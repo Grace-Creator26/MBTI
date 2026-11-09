@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fff7da"><title>내 안의 하찮은 영웅</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+<body>
+<header><a href="./index.html">✳ 하찮은 영웅 연구소</a><span>PERSONALITY LAB / VOL. 01</span></header>
+<main>
+<section id="start-screen" class="screen start">
+<p class="eyebrow">● 평범한 사람들의 비범한 생존기</p>
+<h1>세상을 구하기엔<br>조금 피곤한,<br><mark>내 안의 하찮은 영웅.</mark></h1>
+<p class="intro">누워서 세상을 구해도 괜찮아.<br>당신의 사소한 습관 속에 숨은 초능력을 찾아보세요.</p>
+<div class="hero-art" aria-hidden="true"><span class="spark">✳</span><div class="hero-face"><div class="mascot-cape"></div><div class="mascot-body"><span class="mascot-mask"><i></i><i></i></span><span class="mascot-cheek left"></span><span class="mascot-cheek right"></span><span class="mascot-smile"></span><span class="mascot-emblem">★</span></div></div><span class="bubble">충전도 능력이니까!</span><span class="sticker">평범함 속 잠재력 발견 중</span></div>
+<div class="start-actions"><p class="meta">⏱ 약 3분 <span>✎ 16개의 선택</span> ✧ 16종의 영웅</p><button id="start-button" class="primary">내 초능력 발견하기 <span>↗</span></button><button id="resume-button" class="text-button" hidden>이전 테스트 이어하기 →</button><p class="note">정답은 없어요. 평소의 나와 더 가까운 쪽을 골라주세요.</p></div>
+</section>
+<section id="quiz-screen" class="screen" hidden>
+<div class="progress-heading"><span>잠재된 능력 발견 중</span><span id="progress-count"></span></div><div id="progress" class="progress-track" role="progressbar" aria-label="테스트 진행률" aria-valuemin="0" aria-valuemax="16"><div id="progress-fill"></div></div>
+<div class="question-card"><p id="question-category" class="eyebrow"></p><div id="question-emoji" class="question-emoji" aria-hidden="true"></div><h2 id="question-title" tabindex="-1"></h2><p class="hint">조금 더 나다운 선택은?</p><div id="answers"></div></div>
+<div class="quiz-bottom"><button id="back-button" class="text-button">← 이전 질문</button><span>솔직할수록 나다운 영웅을 만나요.</span></div>
+</section>
+<section id="result-screen" class="screen result" hidden>
+<p class="eyebrow">DISCOVERY COMPLETE · 영웅 발견 완료</p><p class="intro">당신의 일상을 지키는 작은 영웅은</p><div id="result-emoji" class="result-portrait" aria-hidden="true"></div><span id="result-type" class="type-badge"></span><h2 id="result-title" tabindex="-1"></h2><p id="result-quote" class="quote"></p><p id="result-description" class="description"></p>
+<div class="details"><article><span>✦ 숨은 초능력</span><h3 id="result-power"></h3></article><article><span>♡ 오늘의 작은 미션</span><h3 id="result-mission"></h3></article></div>
+<p class="comfort">대단하지 않아도 괜찮아요.<br>당신은 이미 당신의 하루를 구하고 있으니까요.</p><button id="share-button" class="primary">결과 공유하기 <span>↗</span></button><button id="restart-button" class="secondary">다시 하기 ↻</button><p id="share-status" role="status"></p><textarea id="share-fallback" aria-label="공유할 결과: 복사해서 보내세요" readonly hidden></textarea>
+<details><summary>성향은 어떻게 정해지나요?</summary><p>네 성향 축에 각각 4문항을 배정하고 더 많이 선택한 성향을 조합해요. 2:2 동점이면 해당 축의 첫 질문 답변을 기준으로 정합니다. 성격이나 능력을 확정하는 검사가 아닌 재미용 테스트예요.</p></details>
+</section>
+</main><footer>누구나 하나쯤, 하찮고 소중한 초능력.<br><small>MBTI 성향을 활용한 재미용 테스트입니다.</small></footer>
+</body></html>
+
