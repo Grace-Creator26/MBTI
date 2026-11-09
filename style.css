@@ -29,7 +29,7 @@ h1{font-weight:900;color:#17213b;text-shadow:2px 3px 0 white}mark{color:#c92030;
 /* Bundled fonts: Latin letters/digits use Chewy; Korean uses Jua. */
 @font-face {
   font-family: 'Hero Chewy';
-  src: url('./fonts/Chewy-Regular.ttf') format('truetype');
+  src: url('./Chewy-Regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -37,7 +37,7 @@ h1{font-weight:900;color:#17213b;text-shadow:2px 3px 0 white}mark{color:#c92030;
 }
 @font-face {
   font-family: 'Hero Jua';
-  src: url('./fonts/Jua-Regular.ttf') format('truetype');
+  src: url('./Jua-Regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -91,3 +91,4 @@ h1{color:#51406c}mark{color:#d05889;background:linear-gradient(transparent 68%,#
 .details article{box-shadow:3px 4px 0 #ddcde7}.details article:first-child{background:#fff0bd}.details article:last-child{background:#dbf4e6}.details article span{color:#715b7c}
 .comfort{background:#f0e5fc;border-color:#c7acd9}footer{border-top-color:#d9bcdf}
 @media(max-width:600px){#quiz-screen{box-shadow:4px 5px 0 #dfccee}}
+
